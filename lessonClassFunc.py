@@ -11,8 +11,6 @@ def buildInStr(object): #Преобразует список в строку
         for i in object:
             strObject += i
         return strObject
-    else:
-        return False
 def reverse(text): #Обратный порядок строки
     return text[::-1]
 def is_palindrome(text): #проверка на палиндром
