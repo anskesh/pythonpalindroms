@@ -25,7 +25,7 @@ for symbol in symbols: #Проверка есть ли в строке знак�
     else:
         stringWithoutSymbol = stringForCheck
 
-if (is_palindrome(stringWithoutSymbol.lower())) and (len(stringWithoutSymbol)//2 != 0):
+if (is_palindrome(stringWithoutSymbol.lower())):
     print("{0} - Yes, It's palindrome.".format(stringWithoutSymbol))
 else:
     print("{0} - No, isn't palindrome.".format(stringWithoutSymbol))
