@@ -24,10 +24,8 @@ for symbol in symbols: #Проверка есть ли в строке знак�
         stringForCheck = stringForCheck.split(symbol)
         stringWithoutSymbol = buildInStr(stringForCheck)
         stringForCheck = stringWithoutSymbol
-        continue
     else:
         stringWithoutSymbol = stringForCheck
-        continue
 
 if (is_palindrome(stringWithoutSymbol.lower())) and (len(stringWithoutSymbol)//2 != 0):
     print("{0} - Yes, It's palindrome.".format(stringWithoutSymbol))
